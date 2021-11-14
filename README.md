@@ -1,8 +1,7 @@
 # FARS
 No matter what I did, Travis continues to gie me his non-sense error "We are unable to start your build at this time. You exceeded the number of users allowed for your plan. Please review your plan details and follow the steps to resolution."
-
+And appvoyer gives this error, don't know why:"Error in library(testthat) : there is no package called 'testthat'"
 ![travis badge:](https://app.travis-ci.com/Motiche/FARS.svg?branch=main)
-![appvoyer badge:](https://ci.appveyor.com/api/projects/status/5228jy3b5tx3qrnc?svg=true)
 [![Build status](https://ci.appveyor.com/api/projects/status/5228jy3b5tx3qrnc?svg=true)](https://ci.appveyor.com/project/Motiche/fars)
 
 
