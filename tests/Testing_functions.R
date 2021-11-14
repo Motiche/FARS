@@ -1,4 +1,4 @@
-require(testthat)
+library(testthat)
 library(dplyr)
 library(FARS)
 test_that("testing make_filename", {
