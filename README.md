@@ -1,23 +1,9 @@
 # FARS
 No matter what I did, Travis continues to gie me his non-sense error "We are unable to start your build at this time. You exceeded the number of users allowed for your plan. Please review your plan details and follow the steps to resolution."
 travis badge: https://app.travis-ci.com/Motiche/FARS.svg?branch=main
----
-title: "FARS: accidents data in the USA"
-author: "motiche"
-date: "11-14-2021"
-output: rmarkdown::html_vignette
-vignette: >
-  %\VignetteIndexEntry{FARS}
-  %\VignetteEngine{knitr::rmarkdown}
-  %\VignetteEncoding{UTF-8}
----
 
-```{r, include = FALSE}
-knitr::opts_chunk$set(
-  collapse = TRUE,
-  comment = "#>"
-)
-```
+
+
 
 ```{r setup}
 library(FARS)
