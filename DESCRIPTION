@@ -16,7 +16,9 @@ Imports:
     dplyr,
     maps,
     readr,
-    tidyr
+    tidyr,
+    testthat,
+    devtools
 Suggests: 
     rmarkdown,
     knitr
