@@ -1,3 +1,4 @@
+devtools::install_github("r-lib/testthat")
 library(testthat)
 library(dplyr)
 library(FARS)
