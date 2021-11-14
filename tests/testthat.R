@@ -1,6 +1,6 @@
 # from https://www.r-project.org/nosvn/pandoc/testthat.html
 library(testthat)
-test_check("FARS")
+# test_check("FARS")
 library(dplyr)
 library(FARS)
 test_that("testing make_filename", {
