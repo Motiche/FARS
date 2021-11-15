@@ -18,6 +18,9 @@
 #' @importFrom dplyr tbl_df
 #'
 #' @export
+
+STATE = year = MONTH = NULL
+
 fars_read <- function(filename) {
   if(!file.exists(filename))
     stop("file '", filename, "' does not exist")
